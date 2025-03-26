@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #051937, #a8eb12 , #5FFBF1);
+    height: 100vh;
+}
+section{
+    position: relative;
+    top: 10rem;
+    justify-items: center;
+    
+}
+.container{
+    margin: 2rem;
+    margin-top: 3rem;
+}
+#btn1{
+    background-color: #051937;
+    color: white;
+    border-radius: 2rem;
+    width: 7rem;
+    padding: .5rem 0;
+    border: none;
+    margin: 0 5px;
+}
+#btn2{
+    background-color: #a8eb12;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    width: 7rem;
+    padding: .5rem 0;
+    border: none;
+    margin: 0 5px;
+}
+#btn3{
+    background-color: #5FFBF1;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    width: 7rem;
+    padding: .5rem 0;
+    border: none;
+    margin: 0 5px;
+}
+
+#textColor{
+    /* background-image: linear-gradient(to right, #051937, #a8eb12); */
+    background-color: rgba(189, 189, 189, 0.1);
+    border-left: 3px solid #fff;
+    /* border: 1px solid white; */
+    width: auto;
+    color: white;
+    padding: 1.2rem;
+    border-radius: .6rem;
+}
+
+.mainH{
+    font-size: 2.5rem;
+    font-weight: bolder;        
+    color: #fff;
+}
+
+
+nav{
+    position: relative;
+    background-color: black;
+    color: white;
+    top: 1.5rem;
+    display: flex;
+    border-radius: 2rem;
+    width: 98%;
+    margin: 0 auto;
+    height: 3rem;
+    align-items: center;
+}
+ul{
+    /* margin-top: .8rem; */
+    margin-right: 8rem;
+    margin-left: auto;
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading{
+    margin-left: 3rem;
+    display: flex;
+}
+
+
+.heading img {
+    width: 5rem;
+    height: 2rem;
+    margin-right: 1rem;
+    /* margin-top: .5rem; */
+}
+
+p{
+    width: 30rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+#con{
+    /* background-image: linear-gradient(to right, #051937, #a8eb12); */
+    background-color: rgba(189, 189, 189, 0.1);
+    border-left: 3px solid #000000;
+    /* text-shadow: .1em .1em 0 hsl(200 50% 30%); */
+    /* border: 1px solid white; */
+    width: auto;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: .6rem;
+}
